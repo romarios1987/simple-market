@@ -1,0 +1,23 @@
+body {
+    padding-top: 80px;
+}
+
+.show-cart li {
+    display: flex;
+}
+
+.product-item{
+    border: 1px solid #92969a;
+    max-width: 255px;
+    margin: 15px auto;
+    text-align: center;
+    padding-bottom: 15px;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.product-item img{
+    width: 200px;
+}
+.product-item:hover{
+    border: 1px solid #000;
+}
